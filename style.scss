@@ -1,3 +1,5 @@
+@import "boxes.scss";
+
 $colors: (
   primary: #ada2a1,
   primary-light: #968887,
@@ -29,19 +31,6 @@ body {
   display: inline;
 }
 
-.box {
-  background-color: #e3e3e1;
-  text-align: center;
-  border-radius: 20%;
-  padding: 3vh 2vh;
-}
-
-.box {
-  background-color: #e3e3e1;
-  text-align: center;
-  border-radius: 20%;
-  padding: 3vh 2vh;
-}
 .container {
   margin: auto;
   width: 42%;

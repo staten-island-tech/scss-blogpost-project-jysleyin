@@ -20,25 +20,18 @@ body {
   display: inline;
 }
 
-.box {
-  background-color: #e3e3e1;
-  text-align: center;
-  border-radius: 20%;
-  padding: 3vh 2vh;
-}
-
-.box {
-  background-color: #e3e3e1;
-  text-align: center;
-  border-radius: 20%;
-  padding: 3vh 2vh;
-}
-
 .container {
   margin: auto;
   width: 42%;
   padding: 4vh;
   color: #93928d;
+}
+
+.box {
+  background-color: #e3e3e1;
+  text-align: center;
+  border-radius: 20%;
+  padding: 3vh 2vh;
 }
 
 #myBtn {
@@ -55,5 +48,15 @@ body {
   cursor: pointer;
   padding: 1rem;
   border-radius: 4px;
+}
+
+.fixed {
+  display: inline-block;
+  background-color: white;
+  width: 200px;
+  height: 100px;
+  position: fixed;
+  text-align: center;
+  font-size: 20px;
 }
 /*# sourceMappingURL=style.css.map */

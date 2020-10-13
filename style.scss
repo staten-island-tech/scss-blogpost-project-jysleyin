@@ -1,0 +1,66 @@
+$colors: (
+  primary: #ada2a1,
+  primary-light: #968887,
+);
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
+
+body {
+  background-color: #ada2a1;
+}
+
+#header {
+  background-color: #968887;
+  margin: auto;
+  word-spacing: 15px;
+}
+
+#header ul {
+  text-align: center;
+  list-style: none;
+  padding: 20px;
+  font-size: 50px;
+  text-shadow: -2px 4px 0#74736e;
+}
+
+#header li {
+  display: inline;
+}
+
+.box {
+  background-color: #e3e3e1;
+  text-align: center;
+  border-radius: 20%;
+  padding: 3vh 2vh;
+}
+
+.box {
+  background-color: #e3e3e1;
+  text-align: center;
+  border-radius: 20%;
+  padding: 3vh 2vh;
+}
+.container {
+  margin: auto;
+  width: 42%;
+  padding: 4vh;
+  color: #93928d;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 3vh;
+  border: none;
+  outline: none;
+  background-color: #776968;
+  color: #d5d0cf;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 4px;
+}

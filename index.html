@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@200&family=Source+Sans+Pro:ital@1&family=Staatliches&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to Top">Scroll to Top </button>
+
+
+    <nav id="header">
+<ul style=" color:#e5e5e3;font-family: 'Staatliches', cursive; ">
+    <li> Home  </li>
+    <li>Contact</li>
+    <li><a href="#blogs">Blogs</a></li>
+</ul>
+    </nav>
+<h1 style="font-family: 'Source Sans Pro', sans-serif; color:#dcdedc; text-align: center; font-size: 3rem;"> Welcome to Julissa's mind... </h1>
+    <div class="container">
+        <div class="box">
+        <h1 style="font-family: 'Overpass', sans-serif; font-size: 4.5vh;"> Do you hate someone? </h1>
+        <p style="font-family: 'Overpass', sans-serif; font-size: 2.5vh;"> Then stop. Save your energy for something else. The Law <br>
+            of Attraction is a real thing; if you hold bad energy, you'll <br>
+            receive it in return.  Besides, why hate on someone specifically<br>
+             when you can just hate on everyone? Might as well be <br> 
+             equal about it!<br>
+             <br> 
+            <a href="https://www.thelawofattraction.com/what-is-the-law-of-attraction/"><img src="https://i.pinimg.com/474x/4e/aa/d6/4eaad6fce5e6cef65e939af0b403cb6a.jpg" width="40%"></a>
+        </p>
+    </div>
+<br>
+<br>
+<br>
+<br>
+    <div class="box">
+        <h1 style="font-family: 'Overpass', sans-serif; font-size: 4.5vh;"> "How you doin'?" is overrated...
+        </h1>
+        <p style="font-family: 'Overpass', sans-serif; font-size: 2.5vh;"> It's time to put an end to those boring, dreadful introductions. <br>
+             Nobody wants to talk about their quarantine.
+            Especially those <br>
+            who <i>gained a few</i> during the quarantine. SO LET'S STOP WITH <br>
+            THOSE TERRIBLE INTRODUCTIONS! Rather, let's introduce <br>
+             each other with startling riddles. Instead of "How was your <br>
+             quarantine?" how about... "I speak without a mouth and hear <br>
+              without ears. I have no body, but I come alive with wind. What <br>
+              am I?" That'll have them stumbling.... <br>
+              <br>
+              <img src="https://www.rd.com/wp-content/uploads/2019/12/01_I-speak-without.jpg" width="45%">
+        </p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <a id="blogs">
+    <div class="box">
+        <h1 style="font-family: 'Overpass', sans-serif; font-size: 4.5vh;">Drinking out of bottles... Lame!</h1>
+        <p style="font-family: 'Overpass', sans-serif; font-size: 2.5vh;">We all know that plastic water bottles are terrible for the environment. Reusable water bottles are cool. But you know what's even better? Reusable <b>SPRAY</b> bottles. Something better than drinking out of a boring bottle, is being <b>SPRAYED</b> directly in your mouth. An amazing disperse of water molecules hits the back of your throat. It properly cleans your mouth, unlike the typical water bottle. <Br>
+            <br>
+        <img src="https://c8.alamy.com/comp/2B9ED9X/a-man-disinfects-his-mouth-with-a-spray-bottle-2B9ED9X.jpg" width="30%"> </p>
+
+        </a></div>
+    </div>
+
+    <script>
+      $(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+
+      //set variable
+        var mybutton = document.getElementById("myBtn");
+    
+        window.onscroll = function() {scrollFunction()};
+
+        // create function. this will tell us that at 20px it will appear.
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block" ;
+               
+            } else {
+                mybutton.style.display = "none";
+            
+            }
+            }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>

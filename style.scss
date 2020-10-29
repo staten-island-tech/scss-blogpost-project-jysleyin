@@ -5,22 +5,27 @@
   @return map-get($colors, $color-name);
 }
 
+html,
 body {
-  background-color: color(primary);
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #ada2a1;
 }
 
 #header {
-  background-color: color(primary-dark);
+  background-color: #968887;
   margin: auto;
-  word-spacing: 15px;
+  word-spacing: 1rem;
 }
 
 #header ul {
   text-align: center;
   list-style: none;
-  padding: 20px;
-  font-size: 50px;
-  text-shadow: -2px 4px 0 color(text-shado);
+  padding: 1.25rem;
+  font-size: 3rem;
+  text-shadow: -0.125rem 0.25rem 0 #74736e;
 }
 
 #header li {
